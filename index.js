@@ -24,32 +24,32 @@ setInterval(async () => {
     console.log (`Binance`)
     console.log (`Venda: ${Binance.bids[0][0]}`)
     console.log (`Compra: ${Binance.asks[0][0]}`) 
-    console.log (`Compra:${Binance.timestamp} \n`)
+    console.log (`timestamp:${Binance.timestamp} \n`)
 
     console.log (`Ftx`)
     console.log (`Venda: ${Ftx.bids[0][0]}`)
     console.log (`Compra: ${Ftx.asks[0][0]}`)
-    console.log (`Compra:${Ftx.timestamp} \n`)
+    console.log (`timestamp:${Ftx.timestamp} \n`)
 
     console.log (`Coinbase`)
     console.log (`Venda: ${Coinbase.bids[0][0]}`)
     console.log (`Compra: ${Coinbase.asks[0][0]}`)
-    console.log (`Compra:${Coinbase.timestamp} \n`)
+    console.log (`timestamp:${Coinbase.timestamp} \n`)
 
     console.log (`Kucoin`)
     console.log (`Venda: ${Kucoin.bids[0][0]}`)
     console.log (`Compra: ${Kucoin.asks[0][0]}`)
-    console.log (`Compra:${Kucoin.timestamp} \n`)
+    console.log (`timestamp:${Kucoin.timestamp} \n`)
 
     console.log (`Gateio`)
     console.log (`Venda: ${Gateio.bids[0][0]}`)
     console.log (`Compra: ${Gateio.asks[0][0]}`)
-    console.log (`Compra:${Gateio.timestamp} \n`)
+    console.log (`timestamp:${Gateio.timestamp} \n`)
 
     console.log (`Bitfinex`)
     console.log (`Venda: ${Bitfinex.bids[0][0]}`)
     console.log (`Compra: ${Bitfinex.asks[0][0]}`)
-    console.log (`Compra:${Bitfinex.timestamp} \n`)
+    console.log (`timestamp:${Bitfinex.timestamp} \n`)
 
 
       
