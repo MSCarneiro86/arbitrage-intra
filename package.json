@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "ccxt": "^1.88.76"
+  },
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
