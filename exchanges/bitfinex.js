@@ -5,10 +5,8 @@ const bitfinex = new ccxt.bitfinex ({'enableRateLimit': true})
 
 async function BitfinexAPI(){  
 const Bitfinex = await bitfinex.fetchTicker ('ETH/USDT')
-    console.log ("Bitfinex")
-    console.log (`Venda: ${Bitfinex.info.bid}`)
-    console.log (`Compra: ${Bitfinex.info.ask}`)
-    console.log (`timestamp:${Bitfinex.timestamp} \n`)
+    
+    return [Bitfinex.info.bid, Bitfinex.info.ask, Bitfinex.timestamp, "Bitfinex"]
 
 }
 module.exports = { BitfinexAPI };

@@ -4,9 +4,6 @@ const ftx  = new ccxt.ftx ({'enableRateLimit': true})
 
 async function FtxAPI(){  
 const Ftx = await ftx.fetchTicker ('ETH/USDT')
-    console.log ("Ftx")
-    console.log (`Venda: ${Ftx.info.bid}`)
-    console.log (`Compra: ${Ftx.info.ask}`)
-    console.log (`timestamp:${Ftx.timestamp} \n`)
+    return [Ftx.info.bid, Ftx.info.ask, Ftx.timestamp, "Ftx"]
 }
 module.exports = { FtxAPI };
